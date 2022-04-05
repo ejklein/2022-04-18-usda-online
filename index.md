@@ -400,7 +400,7 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
+  PLEASE NOTE:  To participate in this
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
@@ -408,8 +408,7 @@ please preview your site before committing, and make sure to run
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
-  workshop,
-  you will need access to software as described below.
+  workshop, you will need to follow the link below labeled  'the workshop overview site' for instructions about how to install the necessary software for the course.  Please do so as soon as possible.  If you do not have administrative privileges on the computer you will use for the workshop, you'll need help from your IT department to install the necessary software for the course.
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
