@@ -182,9 +182,9 @@ Modify the block below if there are any special requirements.
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% else %}
     Participants must have access to a computer with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on, or which has the required software and packages pre-installed before the workshop.
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  They should have a few specific software packages installed (listed <a href="#setup">below</a>). They should also have the software packages listed in the <a href="https://datacarpentry.org/geospatial-workshop/setup.html">setup instructions for the Data Carpentry Geospatial workshop</a> installed.
 </p>
 
 {% comment %}
@@ -400,7 +400,7 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-  PLEASE NOTE:  To participate in this
+  To participate in a
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
@@ -408,7 +408,8 @@ please preview your site before committing, and make sure to run
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
-  workshop, you will need to follow the link below labeled  'the workshop overview site' for instructions about how to install the necessary software for the course.  Please do so as soon as possible.  If you do not have administrative privileges on the computer you will use for the workshop, you'll need help from your IT department to install the necessary software for the course.
+  workshop,
+  you will need access to software as described below.
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
